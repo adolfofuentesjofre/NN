@@ -1,0 +1,41 @@
+Model: Sequential_20230830_1744
+Metrics:
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99        83
+           1       0.92      1.00      0.96        11
+           2       1.00      1.00      1.00       235
+           3       1.00      0.94      0.97        17
+
+    accuracy                           0.99       346
+   macro avg       0.98      0.98      0.98       346
+weighted avg       0.99      0.99      0.99       346
+
+Confussion Matrix:
+[[ 82   1   0   0]
+ [  0  11   0   0]
+ [  0   0 235   0]
+ [  1   0   0  16]]
+
+
+Arquitectura: 
+
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 700)               15400     
+                                                                 
+ dense_1 (Dense)             (None, 400)               280400    
+                                                                 
+ dense_2 (Dense)             (None, 200)               80200     
+                                                                 
+ dense_3 (Dense)             (None, 100)               20100     
+                                                                 
+ dense_4 (Dense)             (None, 4)                 404       
+                                                                 
+=================================================================
+Total params: 396,504
+Trainable params: 396,504
+Non-trainable params: 0
+_________________________________________________________________
