@@ -3,7 +3,6 @@
 Este Notebook proporciona una guía completa sobre cómo usar TensorFlow, particularmente la API de Keras, para abordar tanto problemas de clasificación como de regresión.
 
 ## Tabla de Contenidos
-1. [Introducción](#introducción)
     * Arquitectura Secuencial vs. Arquitectura de Redes Neuronales Funcionales
     * División del Conjunto de Datos: Entrenamiento, Validación, Prueba
 
